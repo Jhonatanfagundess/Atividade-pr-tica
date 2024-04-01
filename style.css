@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor1:#023535;
+    --cor2:#015958;
+    --cor3:#008F8C;
+    --cor4:#A66574;
+  
+    --fonte-padrão:Arial,Verdana,Helvetica,sans-serif;
+    --fonte-destque:'Alumi sans';
+  
+  }
+  
+  body{
+    background-image: linear-gradient(to top,#1d20eb75,#3B3DB8,#454685,#3B3B52);
+    font-family: Arial, Helvetica, sans-serif;
+      color: #fff;
+      background-color: black;
+  }
+  
+  header{
+    background-image: linear-gradient(to top,#3B3DB8,#454685);
+    text-align: center;
+    padding-top: 60px;
+    min-height: 150px;
+  }
+  
+  header > h1{
+    color: white;
+    font-family: var(--fonte-título);
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    font-weight: normal;
+  }
+  
+  header > p {
+    color: white;
+    font-family: var(--fonte-título);
+    margin: auto;
+    max-width: 500px;
+    font-size: 1em;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.466) ;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+  
+  }
+  
+  nav{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.5); 
+  }
+  
+  nav > a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  nav > a:hover{
+    background-color: rgba(66, 66, 228, 0.966);
+    color: #fff;
+  }
+  
+  main{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    min-width: 300px;
+    max-width: 1000px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 20px;
+    margin: 15px auto;
+    box-shadow: 5px 5px 10px black;
+  }
+  
+ .principal{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+   h1{
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.432);
+    font-family: 'android';
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: var(--cor4);
+  }
+  
+   h2 {
+    text-align: left;
+    text-indent: 10px;;
+    margin: 18px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+ .sub{
+    text-align: justify;
+    text-indent: 20px;
+    color: white;
+    background-color: #454685; 
+    font-weight:bold;
+  }
+  
+  .eu{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-indent: 10px;
+  }
+  
+   div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  main img{
+    width: 50%;
+  }
+  
+.conteudo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+  .foto{
+    text-align: center;
+  }
+  
+  strong{
+    color: #454685;
+  }
+  
+  aside{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #a665745b;
+  }
+  
+  aside > h3 {
+    background-color: #454685;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: var(--fonte-título);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ;
+    margin: -10px -10px -10px -10px;
+  }
+  
+  aside > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: var(--fonte-play);
+  }
+  
+  aside > ul{
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: '\1F3AE';
+  }
+  
+  aside > ul > li > a{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  
+  div.video{
+    background-color: var(--cor5);
+    margin: 0px -20px 30px -20px;
+    padding: 15px;
+    position: relative;
+    padding-bottom: 50%;
+  }
+  
+  div.video > iframe{
+    position: absolute;
+    top:5% ;
+    left:5% ;
+    width:90% ;
+    height:90% ;
+  }
+  
+  
+  footer{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to left,#3B3DB8,#454685);
+    padding: 5px;
+  }
+
+  #name{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  #email{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  #number{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  #digite{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
